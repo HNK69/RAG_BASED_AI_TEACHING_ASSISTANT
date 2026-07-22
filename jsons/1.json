@@ -1,0 +1,701 @@
+{
+    "chunks": [
+        {
+            "title": "1",
+            "start": 0.0,
+            "end": 2.8000000000000003,
+            "text": " This is my footage straight out of the camera."
+        },
+        {
+            "title": "1",
+            "start": 2.8000000000000003,
+            "end": 5.36,
+            "text": " And this is after color grading."
+        },
+        {
+            "title": "1",
+            "start": 11.200000000000001,
+            "end": 15.68,
+            "text": " And if you've ever wondered how I color grade my videos, this video is for you."
+        },
+        {
+            "title": "1",
+            "start": 15.68,
+            "end": 21.92,
+            "text": " But before we begin, this is a disclaimer that I'm not a professional and I'm just passionate about my craft."
+        },
+        {
+            "title": "1",
+            "start": 21.92,
+            "end": 26.48,
+            "text": " And everything I share is based on hands-on experience, trial and error, and lesson rate."
+        },
+        {
+            "title": "1",
+            "start": 26.56,
+            "end": 30.240000000000002,
+            "text": " So if you're new to color grading or if you want to refine your process,"
+        },
+        {
+            "title": "1",
+            "start": 30.240000000000002,
+            "end": 31.84,
+            "text": " maybe my workflow might help you."
+        },
+        {
+            "title": "1",
+            "start": 32.72,
+            "end": 36.64,
+            "text": " Before we dive into the grading process, let's quickly cover the tools that I use"
+        },
+        {
+            "title": "1",
+            "start": 36.64,
+            "end": 38.96,
+            "text": " because I always get asked where do I get my music?"
+        },
+        {
+            "title": "1",
+            "start": 39.6,
+            "end": 40.8,
+            "text": " Or what's my camera?"
+        },
+        {
+            "title": "1",
+            "start": 40.8,
+            "end": 41.84,
+            "text": " Where do I edit?"
+        },
+        {
+            "title": "1",
+            "start": 41.84,
+            "end": 42.72,
+            "text": " Things like that."
+        },
+        {
+            "title": "1",
+            "start": 42.72,
+            "end": 46.64,
+            "text": " Anyway, my main camera is a Sony A67 for YouTube and TikTok"
+        },
+        {
+            "title": "1",
+            "start": 46.64,
+            "end": 50.88,
+            "text": " with a red commodo for some creative shots and an A6D as a backup."
+        },
+        {
+            "title": "1",
+            "start": 51.44,
+            "end": 54.88,
+            "text": " For music, we license all our tracks from Epidemic Sounds,"
+        },
+        {
+            "title": "1",
+            "start": 54.88,
+            "end": 57.52,
+            "text": " which is a game changer for copyright-free music."
+        },
+        {
+            "title": "1",
+            "start": 58.160000000000004,
+            "end": 63.120000000000005,
+            "text": " For color grading and editing, I use the Vincit Assault and the Hanzer for film emulation."
+        },
+        {
+            "title": "1",
+            "start": 63.84,
+            "end": 68.16,
+            "text": " I edit most of my videos on a MacBook Pro M2 16 inches."
+        },
+        {
+            "title": "1",
+            "start": 68.16,
+            "end": 70.72,
+            "text": " And lastly, I dump everything on a NAS storage."
+        },
+        {
+            "title": "1",
+            "start": 71.68,
+            "end": 74.16,
+            "text": " Now finally, let's proceed to the color grading process."
+        },
+        {
+            "title": "1",
+            "start": 74.96000000000001,
+            "end": 80.08,
+            "text": " Organization is key, so I always start with seven nodes to keep my workflow clean and reusable."
+        },
+        {
+            "title": "1",
+            "start": 80.08,
+            "end": 81.92,
+            "text": " And here's what is one that."
+        },
+        {
+            "title": "1",
+            "start": 81.92,
+            "end": 85.44,
+            "text": " The first node is the CSD or the Color Space Transform,"
+        },
+        {
+            "title": "1",
+            "start": 85.44,
+            "end": 90.16,
+            "text": " which converts your log footage like S-Log3 into a workable color space."
+        },
+        {
+            "title": "1",
+            "start": 90.16,
+            "end": 94.48,
+            "text": " And since I'm going for a film look, I'm just going to set my input gamma to S-Log3,"
+        },
+        {
+            "title": "1",
+            "start": 95.28,
+            "end": 99.6,
+            "text": " output color space to Rec. 709, and output gamma to Scenion Film Log."
+        },
+        {
+            "title": "1",
+            "start": 100.48,
+            "end": 101.84,
+            "text": " Second node is exposure."
+        },
+        {
+            "title": "1",
+            "start": 104.48,
+            "end": 107.6,
+            "text": " Here, I adjust the overall brightness using the offset control."
+        },
+        {
+            "title": "1",
+            "start": 108.32000000000001,
+            "end": 109.44,
+            "text": " Why offset?"
+        },
+        {
+            "title": "1",
+            "start": 109.44,
+            "end": 113.75999999999999,
+            "text": " Because it adjusts the shadows, mid-tones, and highlights linearly,"
+        },
+        {
+            "title": "1",
+            "start": 113.75999999999999,
+            "end": 116.96,
+            "text": " unlike the exposure slider, which can blow up your highlights."
+        },
+        {
+            "title": "1",
+            "start": 116.96,
+            "end": 119.2,
+            "text": " Trust me on this because I learned this the hard way."
+        },
+        {
+            "title": "1",
+            "start": 125.6,
+            "end": 128.4,
+            "text": " Next, the third node is where I adjust my contrast."
+        },
+        {
+            "title": "1",
+            "start": 128.4,
+            "end": 130.96,
+            "text": " And instead of slamming the contrast slider,"
+        },
+        {
+            "title": "1",
+            "start": 130.96,
+            "end": 133.84,
+            "text": " I use the curves to fine-tune shadows and highlights."
+        },
+        {
+            "title": "1",
+            "start": 134.8,
+            "end": 139.44,
+            "text": " The main goal here is deep blacks without crashing details and whites that aren't clipped."
+        },
+        {
+            "title": "1",
+            "start": 144.24,
+            "end": 148.88,
+            "text": " For cleaner results, I adjusted the white balance here in the fourth node using the offset wheel,"
+        },
+        {
+            "title": "1",
+            "start": 149.84,
+            "end": 151.84,
+            "text": " instead of the first temperature and tint."
+        },
+        {
+            "title": "1",
+            "start": 154.32,
+            "end": 159.76,
+            "text": " Offset gives you finer control to neutralize color cast without skewing the entire image."
+        },
+        {
+            "title": "1",
+            "start": 164.8,
+            "end": 168.4,
+            "text": " And for a natural saturation, I use the HSL method,"
+        },
+        {
+            "title": "1",
+            "start": 168.4,
+            "end": 171.76,
+            "text": " and here's exactly how you set up without wrecking the image."
+        },
+        {
+            "title": "1",
+            "start": 171.76,
+            "end": 175.2,
+            "text": " Right-click the node and click color space and click HSL."
+        },
+        {
+            "title": "1",
+            "start": 177.44,
+            "end": 182.0,
+            "text": " Now disable channel 1, which is U, and channel 3 for illuminance."
+        },
+        {
+            "title": "1",
+            "start": 184.56,
+            "end": 186.56,
+            "text": " And now we can mess with the curve."
+        },
+        {
+            "title": "1",
+            "start": 187.52,
+            "end": 189.92000000000002,
+            "text": " Now for the magic, the sixth node, which is the look."
+        },
+        {
+            "title": "1",
+            "start": 189.92000000000002,
+            "end": 193.44,
+            "text": " Or in this case, the de-hanser, which emulates film stocks."
+        },
+        {
+            "title": "1",
+            "start": 193.44,
+            "end": 195.04,
+            "text": " And here's how I set it up."
+        },
+        {
+            "title": "1",
+            "start": 195.04,
+            "end": 198.48,
+            "text": " Remember how we set our CST node to Scenian Film Log?"
+        },
+        {
+            "title": "1",
+            "start": 198.48,
+            "end": 203.76,
+            "text": " Here in the input tab, we need to match that so set source to Scenian Film Log 2."
+        },
+        {
+            "title": "1",
+            "start": 203.76,
+            "end": 208.72,
+            "text": " And since we've already adjusted exposure, white balance, and everything else in the previous nodes,"
+        },
+        {
+            "title": "1",
+            "start": 208.72,
+            "end": 210.88,
+            "text": " we don't need to touch anything else here."
+        },
+        {
+            "title": "1",
+            "start": 210.88,
+            "end": 215.76,
+            "text": " In the final step, I'm going to set the image to the same color as the previous node."
+        },
+        {
+            "title": "1",
+            "start": 216.16,
+            "end": 220.32,
+            "text": " In the film tab, this is where you pick your film stock, like Fuji Eterna,"
+        },
+        {
+            "title": "1",
+            "start": 220.32,
+            "end": 226.32,
+            "text": " Kodak Vision, Kodak Porta, Cine Steel, and a lot more, which each has a unique character."
+        },
+        {
+            "title": "1",
+            "start": 227.35999999999999,
+            "end": 230.88,
+            "text": " And if you want a more soft contrast for a dreamy look"
+        },
+        {
+            "title": "1",
+            "start": 230.88,
+            "end": 235.44,
+            "text": " to preserve the shadows and highlight details, pull the slider to the left."
+        },
+        {
+            "title": "1",
+            "start": 236.56,
+            "end": 240.0,
+            "text": " Now pushing it to the right adds punch and crunches shadows,"
+        },
+        {
+            "title": "1",
+            "start": 240.0,
+            "end": 243.04,
+            "text": " lifts mid-tones, and it's gate for moody scenes."
+        },
+        {
+            "title": "1",
+            "start": 249.04,
+            "end": 252.08,
+            "text": " In the film development tab, I usually skip most settings here,"
+        },
+        {
+            "title": "1",
+            "start": 252.08,
+            "end": 257.04,
+            "text": " but I'll match the color boost slightly if needed, and the rest stays default."
+        },
+        {
+            "title": "1",
+            "start": 257.68,
+            "end": 261.28,
+            "text": " Now the film compression gives you a smooth highlight roll-off,"
+        },
+        {
+            "title": "1",
+            "start": 261.28,
+            "end": 267.28,
+            "text": " or no harsh digital clipping, and retains texture and shadows without noisy or crushy blacks."
+        },
+        {
+            "title": "1",
+            "start": 270.0,
+            "end": 271.12,
+            "text": " I'm just gonna skip this part."
+        },
+        {
+            "title": "1",
+            "start": 272.4,
+            "end": 275.76,
+            "text": " In the print tab, here is where it emulates the final print stock,"
+        },
+        {
+            "title": "1",
+            "start": 275.76,
+            "end": 278.88,
+            "text": " like Kodak 2383 or Fuji 3513."
+        },
+        {
+            "title": "1",
+            "start": 280.0,
+            "end": 283.2,
+            "text": " I pick Kodak 2383 most of the time for that classic vibe,"
+        },
+        {
+            "title": "1",
+            "start": 283.2,
+            "end": 286.64,
+            "text": " and max out the color density for richer colors."
+        },
+        {
+            "title": "1",
+            "start": 286.64,
+            "end": 289.04,
+            "text": " Everything after the print tab depends on the vibe that you want."
+        },
+        {
+            "title": "1",
+            "start": 289.04,
+            "end": 291.44,
+            "text": " There's no right settings here, it's all about the taste,"
+        },
+        {
+            "title": "1",
+            "start": 291.44,
+            "end": 294.16,
+            "text": " so let me walk you through how I use each one."
+        },
+        {
+            "title": "1",
+            "start": 294.16,
+            "end": 297.12,
+            "text": " The color head, this lets you fine-tune color balance,"
+        },
+        {
+            "title": "1",
+            "start": 297.12,
+            "end": 300.64,
+            "text": " like yellow, blue, magenta, green, cyan, and red."
+        },
+        {
+            "title": "1",
+            "start": 301.28000000000003,
+            "end": 303.76,
+            "text": " And the shadow, mid-tones, and highlight tones,"
+        },
+        {
+            "title": "1",
+            "start": 303.76,
+            "end": 308.96,
+            "text": " chef for wine or coolness in specific tonal range, and I really touch it."
+        },
+        {
+            "title": "1",
+            "start": 308.96,
+            "end": 314.16,
+            "text": " But next, for the film grain, you can emulate everything from fine 65 super clean,"
+        },
+        {
+            "title": "1",
+            "start": 314.16,
+            "end": 317.52,
+            "text": " to a super chunky 8mm grain or super textured."
+        },
+        {
+            "title": "1",
+            "start": 318.48,
+            "end": 322.32,
+            "text": " And I usually pick 35mm at 250 ISO, which is the middle."
+        },
+        {
+            "title": "1",
+            "start": 323.04,
+            "end": 326.88,
+            "text": " Then I tweak the intense slider usually between 30-50%"
+        },
+        {
+            "title": "1",
+            "start": 327.52,
+            "end": 330.15999999999997,
+            "text": " until it feels present, but not distracting."
+        },
+        {
+            "title": "1",
+            "start": 331.12,
+            "end": 334.96,
+            "text": " Here in the halation tab, it creates that subtle red glow around bright highlights,"
+        },
+        {
+            "title": "1",
+            "start": 334.96,
+            "end": 339.2,
+            "text": " like this. I usually set mine to 35mm slash super 35."
+        },
+        {
+            "title": "1",
+            "start": 340.15999999999997,
+            "end": 343.03999999999996,
+            "text": " And then the bloom adds a dreamy soft glow to highlights."
+        },
+        {
+            "title": "1",
+            "start": 343.92,
+            "end": 347.44,
+            "text": " And if you want that vintage, filmy, creepy vibes,"
+        },
+        {
+            "title": "1",
+            "start": 347.44,
+            "end": 351.2,
+            "text": " this film damage adds scratches, dust here, and emulsion wear."
+        },
+        {
+            "title": "1",
+            "start": 351.84,
+            "end": 355.92,
+            "text": " Next, film breathe mimics the slight exposure pulsing of all projectors."
+        },
+        {
+            "title": "1",
+            "start": 356.56,
+            "end": 357.28,
+            "text": " Super subtle."
+        },
+        {
+            "title": "1",
+            "start": 358.15999999999997,
+            "end": 362.24,
+            "text": " Next, gate weave simulates film jitters from imperfect projector gates."
+        },
+        {
+            "title": "1",
+            "start": 362.8,
+            "end": 365.76,
+            "text": " And my favorites for creative framing, overscan."
+        },
+        {
+            "title": "1",
+            "start": 366.32,
+            "end": 370.88,
+            "text": " It basically craps your image to emulate different film formats like super 8mm,"
+        },
+        {
+            "title": "1",
+            "start": 371.44,
+            "end": 375.84,
+            "text": " with that classic home movies, ultra panavision for that epic widescreen,"
+        },
+        {
+            "title": "1",
+            "start": 376.79999999999995,
+            "end": 378.15999999999997,
+            "text": " and something like Polaroid."
+        },
+        {
+            "title": "1",
+            "start": 379.03999999999996,
+            "end": 382.0,
+            "text": " And not only can you craft to vintage aspect ratios,"
+        },
+        {
+            "title": "1",
+            "start": 382.88,
+            "end": 386.4,
+            "text": " but you can get full control over the film gate itself like scale,"
+        },
+        {
+            "title": "1",
+            "start": 386.4,
+            "end": 388.47999999999996,
+            "text": " flip, static, and a lot more."
+        },
+        {
+            "title": "1",
+            "start": 393.28,
+            "end": 395.84,
+            "text": " And lastly, even yet, which I don't really touch."
+        },
+        {
+            "title": "1",
+            "start": 396.64,
+            "end": 401.44,
+            "text": " After all of those adjustments, I sometimes add a final note for just a personal touch."
+        },
+        {
+            "title": "1",
+            "start": 401.6,
+            "end": 407.76,
+            "text": " I'm just obsessed with green highlights, so I add this personal lot that I put at the last note."
+        },
+        {
+            "title": "1",
+            "start": 409.6,
+            "end": 412.96,
+            "text": " And that's my 7 note workflow that I've been using."
+        },
+        {
+            "title": "1",
+            "start": 412.96,
+            "end": 415.92,
+            "text": " And if I want to apply this color gate to other clips,"
+        },
+        {
+            "title": "1",
+            "start": 415.92,
+            "end": 419.36,
+            "text": " I just right click and grab steel, and save it to power window."
+        },
+        {
+            "title": "1",
+            "start": 419.36,
+            "end": 422.48,
+            "text": " To use it on other clips, I simply right click the gate I want,"
+        },
+        {
+            "title": "1",
+            "start": 422.48,
+            "end": 424.88,
+            "text": " and select apply grade, or just middle click."
+        },
+        {
+            "title": "1",
+            "start": 426.48,
+            "end": 427.44,
+            "text": " So that's it."
+        },
+        {
+            "title": "1",
+            "start": 427.44,
+            "end": 433.04,
+            "text": " My entire workflow on how I color grade my videos here on YouTube and in Tech Talk."
+        },
+        {
+            "title": "1",
+            "start": 487.76,
+            "end": 488.71999999999997,
+            "text": " This looks amazing."
+        },
+        {
+            "title": "1",
+            "start": 488.71999999999997,
+            "end": 489.92,
+            "text": " I shoot with my phone."
+        },
+        {
+            "title": "1",
+            "start": 489.92,
+            "end": 493.04,
+            "text": " Good news because the Hanser has a mobile version."
+        },
+        {
+            "title": "1",
+            "start": 493.04,
+            "end": 498.0,
+            "text": " So whether you're grading your iPhone videos, photos, or clips from your camera roll,"
+        },
+        {
+            "title": "1",
+            "start": 498.64,
+            "end": 502.72,
+            "text": " you get the same Kodak or Fuji profiles, halation, and gain controls."
+        },
+        {
+            "title": "1",
+            "start": 503.6,
+            "end": 507.2,
+            "text": " And that's it from flat lug profile to a cinematic gate."
+        },
+        {
+            "title": "1",
+            "start": 507.2,
+            "end": 511.84,
+            "text": " Remember that this is not a one-size-fit all, so tweak your settings to your liking."
+        },
+        {
+            "title": "1",
+            "start": 511.84,
+            "end": 515.04,
+            "text": " I just want to say that the Hanser makes film emulation very easy,"
+        },
+        {
+            "title": "1",
+            "start": 515.04,
+            "end": 518.88,
+            "text": " and by the way, this is not sponsored, but if you want to get your own Hanser,"
+        },
+        {
+            "title": "1",
+            "start": 518.88,
+            "end": 524.48,
+            "text": " you can get 10% off if you use my code DHANSERXPH link in the description."
+        },
+        {
+            "title": "1",
+            "start": 524.48,
+            "end": 527.8399999999999,
+            "text": " So let me know in the comments what's your biggest struggle when color grading."
+        },
+        {
+            "title": "1",
+            "start": 527.8399999999999,
+            "end": 539.8399999999999,
+            "text": " Thank you for watching."
+        }
+    ],
+    "text": " This is my footage straight out of the camera. And this is after color grading. And if you've ever wondered how I color grade my videos, this video is for you. But before we begin, this is a disclaimer that I'm not a professional and I'm just passionate about my craft. And everything I share is based on hands-on experience, trial and error, and lesson rate. So if you're new to color grading or if you want to refine your process, maybe my workflow might help you. Before we dive into the grading process, let's quickly cover the tools that I use because I always get asked where do I get my music? Or what's my camera? Where do I edit? Things like that. Anyway, my main camera is a Sony A67 for YouTube and TikTok with a red commodo for some creative shots and an A6D as a backup. For music, we license all our tracks from Epidemic Sounds, which is a game changer for copyright-free music. For color grading and editing, I use the Vincit Assault and the Hanzer for film emulation. I edit most of my videos on a MacBook Pro M2 16 inches. And lastly, I dump everything on a NAS storage. Now finally, let's proceed to the color grading process. Organization is key, so I always start with seven nodes to keep my workflow clean and reusable. And here's what is one that. The first node is the CSD or the Color Space Transform, which converts your log footage like S-Log3 into a workable color space. And since I'm going for a film look, I'm just going to set my input gamma to S-Log3, output color space to Rec. 709, and output gamma to Scenion Film Log. Second node is exposure. Here, I adjust the overall brightness using the offset control. Why offset? Because it adjusts the shadows, mid-tones, and highlights linearly, unlike the exposure slider, which can blow up your highlights. Trust me on this because I learned this the hard way. Next, the third node is where I adjust my contrast. And instead of slamming the contrast slider, I use the curves to fine-tune shadows and highlights. The main goal here is deep blacks without crashing details and whites that aren't clipped. For cleaner results, I adjusted the white balance here in the fourth node using the offset wheel, instead of the first temperature and tint. Offset gives you finer control to neutralize color cast without skewing the entire image. And for a natural saturation, I use the HSL method, and here's exactly how you set up without wrecking the image. Right-click the node and click color space and click HSL. Now disable channel 1, which is U, and channel 3 for illuminance. And now we can mess with the curve. Now for the magic, the sixth node, which is the look. Or in this case, the de-hanser, which emulates film stocks. And here's how I set it up. Remember how we set our CST node to Scenian Film Log? Here in the input tab, we need to match that so set source to Scenian Film Log 2. And since we've already adjusted exposure, white balance, and everything else in the previous nodes, we don't need to touch anything else here. In the final step, I'm going to set the image to the same color as the previous node. In the film tab, this is where you pick your film stock, like Fuji Eterna, Kodak Vision, Kodak Porta, Cine Steel, and a lot more, which each has a unique character. And if you want a more soft contrast for a dreamy look to preserve the shadows and highlight details, pull the slider to the left. Now pushing it to the right adds punch and crunches shadows, lifts mid-tones, and it's gate for moody scenes. In the film development tab, I usually skip most settings here, but I'll match the color boost slightly if needed, and the rest stays default. Now the film compression gives you a smooth highlight roll-off, or no harsh digital clipping, and retains texture and shadows without noisy or crushy blacks. I'm just gonna skip this part. In the print tab, here is where it emulates the final print stock, like Kodak 2383 or Fuji 3513. I pick Kodak 2383 most of the time for that classic vibe, and max out the color density for richer colors. Everything after the print tab depends on the vibe that you want. There's no right settings here, it's all about the taste, so let me walk you through how I use each one. The color head, this lets you fine-tune color balance, like yellow, blue, magenta, green, cyan, and red. And the shadow, mid-tones, and highlight tones, chef for wine or coolness in specific tonal range, and I really touch it. But next, for the film grain, you can emulate everything from fine 65 super clean, to a super chunky 8mm grain or super textured. And I usually pick 35mm at 250 ISO, which is the middle. Then I tweak the intense slider usually between 30-50% until it feels present, but not distracting. Here in the halation tab, it creates that subtle red glow around bright highlights, like this. I usually set mine to 35mm slash super 35. And then the bloom adds a dreamy soft glow to highlights. And if you want that vintage, filmy, creepy vibes, this film damage adds scratches, dust here, and emulsion wear. Next, film breathe mimics the slight exposure pulsing of all projectors. Super subtle. Next, gate weave simulates film jitters from imperfect projector gates. And my favorites for creative framing, overscan. It basically craps your image to emulate different film formats like super 8mm, with that classic home movies, ultra panavision for that epic widescreen, and something like Polaroid. And not only can you craft to vintage aspect ratios, but you can get full control over the film gate itself like scale, flip, static, and a lot more. And lastly, even yet, which I don't really touch. After all of those adjustments, I sometimes add a final note for just a personal touch. I'm just obsessed with green highlights, so I add this personal lot that I put at the last note. And that's my 7 note workflow that I've been using. And if I want to apply this color gate to other clips, I just right click and grab steel, and save it to power window. To use it on other clips, I simply right click the gate I want, and select apply grade, or just middle click. So that's it. My entire workflow on how I color grade my videos here on YouTube and in Tech Talk. This looks amazing. I shoot with my phone. Good news because the Hanser has a mobile version. So whether you're grading your iPhone videos, photos, or clips from your camera roll, you get the same Kodak or Fuji profiles, halation, and gain controls. And that's it from flat lug profile to a cinematic gate. Remember that this is not a one-size-fit all, so tweak your settings to your liking. I just want to say that the Hanser makes film emulation very easy, and by the way, this is not sponsored, but if you want to get your own Hanser, you can get 10% off if you use my code DHANSERXPH link in the description. So let me know in the comments what's your biggest struggle when color grading. Thank you for watching."
+}
