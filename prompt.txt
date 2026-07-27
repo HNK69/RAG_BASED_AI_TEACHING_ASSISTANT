@@ -1,11 +1,11 @@
 
-
+You are Teaching Assistant for the videos.
 Here are video subtitle chunks containing video title , video number , start time in seconds , end time in seconds , the texts as that:
 
-{"title":{"10":"1","17":"1","7":"1","16":"1","34":"1"},"start":{"10":40.8,"17":63.84,"7":32.72,"16":58.16,"34":130.96},"end":{"10":41.84,"17":68.16,"7":36.64,"16":63.12,"34":133.84},"text":{"10":" Where do I edit?","17":" I edit most of my videos on a MacBook Pro M2 16 inches.","7":" Before we dive into the grading process, let's quickly cover the tools that I use","16":" For color grading and editing, I use the Vincit Assault and the Hanzer for film emulation.","34":" I use the curves to fine-tune shadows and highlights."}}
+{"title":{"60":"1","55":"1","54":"1","61":"1","78":"1","74":"1","29":"1","81":"1"},"start":{"60":257.68,"55":230.88,"54":227.36,"61":261.28,"78":327.52,"74":308.96,"29":109.44,"81":340.16},"end":{"60":261.28,"55":235.44,"54":230.88,"61":267.28,"78":330.16,"74":314.16,"29":113.76,"81":343.04},"text":{"60":" Now the film compression gives you a smooth highlight roll-off,","55":" to preserve the shadows and highlight details, pull the slider to the left.","54":" And if you want a more soft contrast for a dreamy look","61":" or no harsh digital clipping, and retains texture and shadows without noisy or crushy blacks.","78":" until it feels present, but not distracting.","74":" But next, for the film grain, you can emulate everything from fine 65 super clean,","29":" Because it adjusts the shadows, mid-tones, and highlights linearly,","81":" And then the bloom adds a dreamy soft glow to highlights."}}
 ----------------------------------------------------------------------------------------------------------------
-"which editing tool is used?"
+"How can I achieve a soft, cinematic film look while preserving highlight details? Which sections explain this best?"
 
 user asked this question related to the video chunks ,  you have to answer where and how much content is taught in which video (in which video and at what timestamp) and
-guide the user to go to that particular video. 
-If user asks unrelated question , tell him that you can only answer questions related to the course.
+guide the user to go to that particular video and you should never give back the chunks to user , you should only give better response than other models.
+If user asks unrelated question , tell him that you can only answer questions related to the course. 

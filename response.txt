@@ -1,0 +1,9 @@
+To achieve a soft, cinematic film look while preserving highlight details, you should focus on the **film compression** and **bloom** sections of the video. These elements are key to creating a dreamy, cinematic tone while maintaining detail in both shadows and highlights.
+
+- **Film Compression**: This section explains how to adjust the compression to preserve highlight details and maintain a smooth highlight roll-off. It also discusses how it helps retain texture and shadows without noisy or crushy blacks.  
+  - **Video 1**, **timestamp: 230.88 to 235.44 seconds**.
+
+- **Bloom**: This adds a dreamy soft glow to highlights, enhancing the cinematic feel.  
+  - **Video 1**, **timestamp: 340.16 to 343.04 seconds**.
+
+These sections provide the most relevant guidance for achieving the desired soft, cinematic look. You can find these details in **Video 1** at the specified timestamps.
